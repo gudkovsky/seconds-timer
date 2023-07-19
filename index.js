@@ -61,7 +61,7 @@ function createTimerAnimator() {
       updateClockAnimation(remainingHours, remainingMinutes, remainingSeconds);
 
       totalSeconds--;
-    }, 10);
+    }, 1000);
   }
 }
 
